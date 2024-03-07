@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: rgb(205, 211, 251);
+    --cor-secundaria: #265073;
+    --cor-tercearia: #FFFFFF;
+
+    --fonte-primaria: "Inter", sans-serif;
+}
+
+
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.apresentacao_conteudo {
+    color:var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    gap: 30px;
+}
+
+
+.titulo {
+    padding: 4% 0% 0% 15%;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 3.1rem;
+
+}
+
+.texto-area {
+    color: var(--cor-secundaria);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 2rem;
+    border-radius: 24px;
+    
+    
+}
+
+.botao-criptografia {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.botao_click {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-tercearia);
+    font-family:var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-radius: 24px;
+   
+}
+
+    .botao_descripto {
+        background-color: var(--cor-tercearia);
+        color: var(--cor-secundaria);
+        font-family: var(--fonte-primaria); 
+        font-weight: 400;
+        font-size: 1.5rem;
+        border-radius: 24px;
+        width: 200px;
+        
+    }
+
+    .msg-box {
+        padding: 4% 0% 0% 10%;
+        display: row;
+        flex-direction: column;
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        border-radius: 24px;
+    }
+
+        .btn {
+            background-color: var(--cor-secundaria);
+            color: var(--cor-tercearia);
+            font-family:var(--fonte-primaria); 
+            font-weight: 400;
+            font-size: 0.8rem;
+            border-radius: 24px;
+            width: 100px;
+        }
+
+        .rodape {
+            text-align: center;
+            padding: 24px;
+            font-family: var(--fonte-primaria);
+            font-weight: 400;
+            color: var(--cor-secundaria);
+            font-size: 1.5rem;
+            
+        }
+
+
+        @media(max-width: 1440px) {
+            .apresentacao_conteudo {
+                width: auto;
+            }
+        }
+
+        @media(max-width: 768px) {
+            .apresentacao_conteudo{
+                width: auto;
+            }
+        }
+
+        @media(max-width:375px) {
+            .apresentacao_conteudo {
+                width: auto;
+            }
+        }
